@@ -17,7 +17,7 @@ function App() {
 
   //frontend url 
   // const url = `http://localhost:8800/login`;
-  const url = `${process.env.APP_URL}/login`;
+  const url = `https://social-media-app-ksvc.onrender.com/login`;
 
   const handleSubmit = async (e) => { // password reset
     // prevent default event
@@ -38,7 +38,7 @@ function App() {
     }
 
     // server url 
-    const apiUrl = `${process.env.APP_URL}/users/reset-password`;
+    const apiUrl = `https://social-media-app-ksvc.onrender.com/users/reset-password`;
     // const apiUrl = `${process.env.REACT_APP_URL}/users/reset-password`;
     console.log(apiUrl);
 
