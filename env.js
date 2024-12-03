@@ -1,0 +1,1 @@
+const MONGODB_URL = "mongodb + srv://tharunbalaji110:gB2EDYBhRRZBXVUN@cluster0.nb4ey7c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
