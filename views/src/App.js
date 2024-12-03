@@ -16,8 +16,8 @@ function App() {
   const [errorMessage, setErrorMessage] = useState(null);
 
   //frontend url 
-  const url = `http://localhost:8800/login`;
-  // const url = `${process.env.REACT_APP_URL}/login`;
+  // const url = `http://localhost:8800/login`;
+  const url = `${process.env.APP_URL}/login`;
 
   const handleSubmit = async (e) => { // password reset
     // prevent default event
@@ -38,7 +38,7 @@ function App() {
     }
 
     // server url 
-    const apiUrl = "http://localhost:8800/users/reset-password";
+    const apiUrl = `${process.env.APP_URL}/users/reset-password`;
     // const apiUrl = `${process.env.REACT_APP_URL}/users/reset-password`;
     console.log(apiUrl);
 
